@@ -11,6 +11,10 @@
   <title>Library</title>
 </head>
 <body>
+  <header>
+    <h1>Library Wishlist Collection</h1>
+  </header>
+
   <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,61 +27,63 @@
       </div>
     </div>
   </nav>
-
-  <h1>Your Library Wishlist</h1>
-  <table class="table table-hover table-bordered table-sm">
-    <thead class="thead-dark">
-      <tr>
-        <th scope="col">Title</th>
-        <th scope="col">Author(s)</th>
-        <th scope="col">Year Published</th>
-        <th scope="col">Publisher</th>
-        <th scope="col">Page Count</th>
-        <th scope="col">MSRP</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">Ender's Game</th>
-        <td>Card, Orson Scott</td>
-        <td>1994</td>
-        <td>Tor Science Fiction</td>
-        <td>324</td>
-        <td>$7.99</td>
-      </tr>
-
-      <tr>
-        <th scope="row">Kingdom Keepers: Disney After Dark</th>
-        <td>Pearson, Ridley</td>
-        <td>2009</td>
-        <td>Disney-Hyperion</td>
-        <td>336</td>
-        <td>$4.49</td>
-      </tr>
-
-      <tr>
-        <th scope="row">The Martian</th>
-        <td>Weir, Andy</td>
-        <td>2014</td>
-        <td>Broadway Books</td>
-        <td>387</td>
-        <td>$10.89</td>
-      </tr>
-
-      <tr>
-        <th scope="row">The Lion, the Witch, and the Wardrobe</th>
-        <td>Lewis, C. S.</td>
-        <td>1994</td>
-        <td>HarperCollins</td>
-        <td>208</td>
-        <td>$4.75</td>
-      </tr>
-
-    </tbody>
-  </table>
   <br>
-  <h2>Add to your Wishlist</h2>
-  <form>
+  <h2 class="centerAlignment">Your Library</h2>
+  <div class="libraryPadding">
+    <table class="table table-hover table-bordered table-sm">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Title</th>
+          <th scope="col">Author(s)</th>
+          <th scope="col">Year Published</th>
+          <th scope="col">Publisher</th>
+          <th scope="col">Page Count</th>
+          <th scope="col">MSRP</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Ender's Game</th>
+          <td>Card, Orson Scott</td>
+          <td>1994</td>
+          <td>Tor Science Fiction</td>
+          <td>324</td>
+          <td>$7.99</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Kingdom Keepers: Disney After Dark</th>
+          <td>Pearson, Ridley</td>
+          <td>2009</td>
+          <td>Disney-Hyperion</td>
+          <td>336</td>
+          <td>$4.49</td>
+        </tr>
+
+        <tr>
+          <th scope="row">The Martian</th>
+          <td>Weir, Andy</td>
+          <td>2014</td>
+          <td>Broadway Books</td>
+          <td>387</td>
+          <td>$10.89</td>
+        </tr>
+
+        <tr>
+          <th scope="row">The Lion, the Witch, and the Wardrobe</th>
+          <td>Lewis, C. S.</td>
+          <td>1994</td>
+          <td>HarperCollins</td>
+          <td>208</td>
+          <td>$4.75</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <br>
+  <h2 class="libraryPadding">Add to your Wishlist</h2>
+  <form class="libraryPadding">
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="inputTitle">Book Title</label>
@@ -106,7 +112,7 @@
         <input type="number" class="form-control" id="inputMSRP" step="0.01">
       </div>
     </div>
-    <button type="submit" class="btn btn-primary">Add to Table</button>
+    <button type="submit" class="btn btn-primary">Add</button>
   </form>
 </body>
 </html>

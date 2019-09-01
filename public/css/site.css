@@ -1,0 +1,34 @@
+header{
+  color: lightGrey;
+  background-color: navy;
+  padding: 6px
+}
+
+body {
+  color: navy;
+  background-color: lightGrey;
+}
+
+p {
+  padding: 10px;
+}
+
+a {
+  color: rgb(102,0,102);
+}
+
+figcaption{
+  color: rgb(85,85,85);
+}
+
+.libraryPadding{
+  padding: 20px;
+}
+
+.centerAlignment {
+  text-align: center;
+}
+
+#emailLink {
+  text-decoration: underline;
+}
