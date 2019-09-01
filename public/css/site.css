@@ -19,6 +19,11 @@ a {
 
 figcaption{
   color: rgb(85,85,85);
+  font-size: 10px;
+}
+
+h2 {
+  padding: 20px;
 }
 
 .libraryPadding{
@@ -27,6 +32,15 @@ figcaption{
 
 .centerAlignment {
   text-align: center;
+}
+
+.thumbnailStyle {
+  width: 100px;
+}
+
+.thumbnailPadding{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #emailLink {
